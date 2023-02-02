@@ -1,0 +1,352 @@
+{font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+body{background-color: skyblue;}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*navigator*/
+
+.navigator{
+    display: flex; /*수직컨테이너*/
+    flex-direction: row;
+    justify-content: space-between; /*WORK_INFO_오른쪽정렬*/
+}
+
+li{
+    display: inline; /*수평컨테이너*/
+    margin: 0%;
+    margin-left: 15px;
+}
+
+ul{
+    margin: 0%;
+}
+
+.sitename{ /*사이트이름*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color:navy;
+}
+
+.nav menu{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    transition: 0.1s; /*딜레이 0.1초*/
+}
+
+/*dashboard*/
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.comments{ /*저희맨브레인팀은~*/
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.sample{
+    background-color: blue;
+}
+.sample:hover{ /*맨브레인에 대한 디자인*/
+    background-color: transparent;
+    transition: none; /*딜레이 없이 바뀜*/
+    color: black;
+    -webkit-text-stroke: 1px #000
+}
+.highlight{
+    color: white;
+}
+
+.write{
+    color: white;
+}
+
+.highlight:hover{
+    transition: none; /*딜레이 없이 바뀜*/
+    background-color: blueviolet;
+    color: black;
+    -webkit-text-stroke: 1px #000
+}
+
+.write:hover{
+    transition: none; /*딜레이 없이 바뀜*/
+    background-color: blueviolet;
+    color: black;
+    -webkit-text-stroke: 1px #000
+}
+
+.comment{ /*고분자~*/
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: -0.3;
+}
+
+/*ACTIVITY HISTORY*/
+.activity{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color:navy ;
+    text-align: right;
+}
+
+/*footer*/
+.work-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px; /*웹페이지 길이를 늘임*/
+}
+
+.contact{ /*contact me 서식*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: navy;
+    border-top: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.links>a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.footer>p{ /*내 이메일 주소 서식*/
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: -0.3;
+}
+
+.profile{ /*이미지랑_소개_가로배열*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+#profile-picture{ /*사진크기_조정*/
+    width: 460px;
+    margin-right: 60px;
+    border: 1px solid;
+    border-radius: 10px;
+    
+}
+
+.introduction>h2{ /*aboutus_roles.설정*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin: 0%;
+    font-weight: 900;
+    margin-bottom: 20;
+    
+}
+.introduction>p{ /*info_자기소개*/
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+#member{ /*팀장 팀원부분*/
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.role-menu{ /*ROLES*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin: 40px 30px;
+}
+
+.roleicon1{  /*개인사진크기*/
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.roleicon2{  /*개인사진크기*/
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.roleicon3{  /*개인사진크기*/
+    height: 240px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.roleicon4{  /*개인사진크기*/
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+
+
+.role-section{ /*개인소개전체서식*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 30px;
+    margin-top: 30px;
+}
+
+.role{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.role-intro{
+    margin-left: 30px;
+}
+
+.role-name{ /*명언*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.role-exp{ /*설명서식*/
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+/*지금부터_활동사항_서식*/
+.recent-work{
+    display: flex;
+    flex-direction: column;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+    align-items: center;
+    
+}
+/*작품활동사진들*/
+.articleimg1{
+    width: 500px;
+}
+
+.articleimg2{
+    width: 400px;
+    height: 288px;
+}
+
+.articleimg3{
+    width: 400px;
+    height: 288px;
+}
+
+.articleimg4{
+    height: 288px;
+}
+.articleimg5{
+    height: 288px;
+}
+
+.articleimg6{
+    height: 288px;
+}
+
+.articleimg7{
+    height: 288px;
+}
+.article-info{
+    margin: 0px 20px;
+    
+}
+
+.article-name{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color:navy;
+}
+
+.article-exp{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    
+}
+
+.more{ /*더보기서식*/
+    width: content;
+    height: content;
+    background-color: transparent;
+    border: 1px ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    outline: none;
+    padding: 0px;
+}
+.more:hover{
+    color: white;
+}
+
+#a1{/*각 활동별 배경 컬러*/
+    background-color: rgb(203, 234, 248);
+}
+
+#a2{
+    background-color: rgb(203, 234, 248);
+}
+
+#a3{
+    background-color: rgb(203, 234, 248);
+}
+
+#a0{
+    background-color: rgb(203, 234, 248);
+}
+
+#a5{
+    background-color: rgb(203, 234, 248);
+}
+
+#a6{
+    background-color: rgb(203, 234, 248);
+}
+
+#a7{
+    background-color: rgb(203, 234, 248);
+}
